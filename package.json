@@ -1,0 +1,14 @@
+{
+  "name": "node-blue-node-slack",
+  "version": "1.0.1",
+  "description": "This package provides a Node-BLUE node to send messages to Slack.",
+  "homepage": "https://github.com/Homegear/node-blue-node-slack",
+  "node-blue": {
+    "maxThreadCounts": {
+      "slack": 0
+    },
+    "nodes": {
+      "slack": "slack.php"
+    }
+  }
+}
